@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="style.css"></head><body><div id="content"><h1>Loading...</h1></div><script>fetch('./profile.json').then(r=>r.json()).then(d=>{document.getElementById('content').innerHTML='<h1>'+d.name+'</h1><p>'+d.bio+'</p>';})</script></body></html>
